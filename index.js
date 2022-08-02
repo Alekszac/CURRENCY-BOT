@@ -4,10 +4,6 @@ const cc = require('currency-codes');
 const { commands } = require('../TestYaleBot/const');
 require('dotenv').config()
 
-//const TELEGRAM_BOT_TOKEN =
-//   process.env.TELEGRAM_BOT_TOKEN ||
-//   "803022483:AAGNuHqcEKyqlJvWIG0bx6MfTXhe7SAMXgQ";
-
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
 
 bot.start((ctx) => {
